@@ -1,15 +1,15 @@
 # MediCare
+## How to run?
+## Steps:
 
-# How to run?
-### STEPS:
-
-Clone the repository
+#### • Clone the repository:
 
 ```bash
 Project repo: https://github.com/
 ```
+<br>
 
-### STEP 01- Create a conda environment after opening the repository
+#### • Create a conda environment after opening the repository:
 
 ```bash
 conda create -n mchatbot python=3.8 -y
@@ -18,30 +18,31 @@ conda create -n mchatbot python=3.8 -y
 ```bash
 conda activate mchatbot
 ```
+<br>
 
-### STEP 02- install the requirements
+#### • Install the requirements:
 ```bash
 pip install -r requirements.txt
 ```
 
+<br>
 
-### Create a `.env` file in the root directory and add your Pinecone credentials as follows:
+#### • Create a `.env` file in the root directory and add your Pinecone credentials as follows:
 
 ```ini
 PINECONE_API_KEY = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 PINECONE_API_ENV = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 ```
 
+<br>
 
-### Download the quantize model from the link provided in model folder & keep the model in the model directory:
+#### • Download the quantized model from the link provided in the model folder & keep the model in the model directory:
 
 ```ini
 ## Download the Llama 2 Model:
-
 llama-2-7b-chat.ggmlv3.q4_0.bin
 
-
-## From the following link:
+## from the following link:
 https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
 ```
 
@@ -51,17 +52,19 @@ python store_index.py
 ```
 
 ```bash
-# Finally run the following command
+# finally run the following command
 python app.py
 ```
+<br>
 
-Now,
+#### • Now,
 ```bash
-open up localhost:
+open up localhost
 ```
+<br>
 
 
-### Techstack Used:
+## Techstack Used:
 
 - Python
 - LangChain
