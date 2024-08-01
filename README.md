@@ -1,4 +1,7 @@
 # MediCare
+<b> MediCare is an advanced AI-powered medical chatbot designed to provide accurate, context-aware responses to complex medical queries. Leveraging cutting-edge language models and efficient data retrieval systems, it offers users instant access to reliable medical information, enhancing healthcare accessibility and support. This intelligent system aims to bridge the gap between patients and medical knowledge, providing a user-friendly interface for health-related inquiries.
+
+
 ## How to run?
 ## Steps:
 
@@ -64,7 +67,7 @@ open up localhost
 <br>
 
 
-## Techstack Used:
+## Techstack 
 
 - Python
 - LangChain
